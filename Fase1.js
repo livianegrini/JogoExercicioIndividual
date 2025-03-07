@@ -32,7 +32,7 @@ class Fase1 extends Phaser.Scene {
         // Carregando imagem da poeira
         this.load.image('poeira', 'Assets/poeira.png');
         // Carregando imagem da fase 2
-        this.load.image('fase2', 'Assets/fase2.png');
+        this.load.image('fase2', 'Assets/Fase2.png');
     }
 
     create() {
@@ -152,7 +152,7 @@ class Fase1 extends Phaser.Scene {
         // Atualiza a posição do "foguinho" em relação ao personagem
         this.poeira.setPosition(this.personagem.x, this.personagem.y + (this.personagem.displayHeight / 2) + 25);
 
-        if (this.pontuacao == 1) {
+        if (this.pontuacao == 10) {
             this.add.image(400, 290, 'fase2').setScale(1.1);
 
             // Aguarda 2 segundos (2000 milissegundos) antes de mudar para a cena inicial

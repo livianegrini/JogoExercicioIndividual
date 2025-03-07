@@ -201,7 +201,7 @@ class Fase2 extends Phaser.Scene {
         this.poeira.setPosition(this.personagem.x, this.personagem.y + (this.personagem.displayHeight / 2) + 25);
 
       
-        if (this.pontuacao == 3) {
+        if (this.pontuacao == 10) {
             this.add.image(400, 290, 'ganhou').setScale(1.1);
 
             // Aguarda 2 segundos (2000 milissegundos) antes de mudar para a cena inicial
