@@ -22,17 +22,17 @@ class Fase1 extends Phaser.Scene {
 
     preload() {
         // Carregando imagem de fundo
-        this.load.image('fundo', 'Assets/fundo.png');
+        this.load.image('fundo', '../Assets/fundo.png');
         // Carregando imagem da platarfoma
-        this.load.image('plataforma', 'Assets/plataforma.png');
+        this.load.image('plataforma', '../Assets/plataforma.png');
         // Carregando imagem da maca
-        this.load.image('maca', 'Assets/maca.png');
+        this.load.image('maca', '../Assets/maca.png');
         // Carregando imagem do personagem
-        this.load.spritesheet('personagem', 'Assets/personagem.png', { frameWidth: 106.5, frameHeight: 190 });
+        this.load.spritesheet('personagem', '../Assets/personagem.png', { frameWidth: 106.5, frameHeight: 190 });
         // Carregando imagem da poeira
-        this.load.image('poeira', 'Assets/poeira.png');
+        this.load.image('poeira', '../Assets/poeira.png');
         // Carregando imagem da fase 2
-        this.load.image('fase2', 'Assets/fase2.png');
+        this.load.image('fase2', '../Assets/fase2.png');
     }
 
     create() {
