@@ -24,21 +24,21 @@ class Fase2 extends Phaser.Scene {
 
     preload() {
         // Carregando imagem de fundo
-        this.load.image('fundo', '../Assets/fundoExplicacao.png');
+        this.load.image('fundo', 'Assets/fundoExplicacao.png');
         // Carregando imagem da platarfoma
-        this.load.image('plataforma', '../Assets/plataforma.png');
+        this.load.image('plataforma', 'Assets/plataforma.png');
         // Carregando imagem da moeda
-        this.load.image('moeda', '../Assets/moeda.png');
+        this.load.image('moeda', 'Assets/moeda.png');
         // Carregando imagem do personagem
-        this.load.spritesheet('personagem', '../Assets/personagem.png', { frameWidth: 106.5, frameHeight: 190 });
+        this.load.spritesheet('personagem', 'Assets/personagem.png', { frameWidth: 106.5, frameHeight: 190 });
         // Carregando imagem da poeira
-        this.load.image('poeira', '../Assets/poeira.png');
+        this.load.image('poeira', 'Assets/poeira.png');
         // Carregando imagem da bomba
-        this.load.image('bomba', '../Assets/bomba.png');
+        this.load.image('bomba', 'Assets/bomba.png');
         // Carregando imagem de game over
-        this.load.image('perdeu', '../Assets/perdeu.png');
+        this.load.image('perdeu', 'Assets/perdeu.png');
         // Carregando imagem de vitória
-        this.load.image('ganhou', '../Assets/ganhou.png');
+        this.load.image('ganhou', 'Assets/ganhou.png');
     }
 
     create() {

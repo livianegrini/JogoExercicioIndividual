@@ -8,8 +8,8 @@ class ComoJogar extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("fundoExplicacao", "../Assets/fundoExplicacao.png");
-        this.load.image("botaoVoltar", "../Assets/botaoVoltar.png");
+        this.load.image("fundoExplicacao", "Assets/fundoExplicacao.png");
+        this.load.image("botaoVoltar", "Assets/botaoVoltar.png");
     }
 
     create() {

@@ -8,9 +8,9 @@ class CenaInicial extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("capa", "../Assets/capa.png");
-        this.load.image("botaoJogar", "../Assets/botaoJogar.png");
-        this.load.image("botaoComoJogar", "../Assets/botaoComoJogar.png");
+        this.load.image("capa", "Assets/capa.png");
+        this.load.image("botaoJogar", "Assets/botaoJogar.png");
+        this.load.image("botaoComoJogar", "Assets/botaoComoJogar.png");
     }
 
     create() {
