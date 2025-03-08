@@ -26,15 +26,16 @@
     <script src="Fase2.js" defer></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Configuração do Phaser para iniciar o jogo
             const config = {
                 type: Phaser.AUTO,
-                width: 800,
-                height: 600,
+                width: 800, // Largura da tela do jogo
+                height: 600, // Altura da tela do jogo
                 physics: {
-                    default: 'arcade',
+                    default: 'arcade', // Define a física do jogo como arcade
                     arcade: {
-                        gravity: { y: 300 },
-                        debug: true
+                        gravity: { y: 300 }, // Define a gravidade para puxar objetos para baixo
+                        debug: true // Habilita a exibição de hitboxes para depuração
                     }
                 },
                 parent: "game",
